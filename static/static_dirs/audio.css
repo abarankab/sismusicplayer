@@ -1,0 +1,50 @@
+#play_div {
+    display: inline-block;
+}
+.p_img {
+    width: 20px;
+    height: 20px;
+}
+#play_btn {
+    margin-top: 0px !important;
+    color: black;
+}
+#play_line {
+    border-radius: 15px;
+    width: 100%;
+    background: #CCCCCC;
+    height: 15px;
+}
+#play_header {
+    position: relative;
+    background: #888888;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+#gap {
+    height: 50px;
+}
+
+#audioscroll {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    #audioscroll {
+        float: none;
+    }
+
+    .controlpan {
+        display: block;
+    }
+
+    #play_line {
+        width: 200px;
+    }
+
+    #gap {
+        height: 90px;
+    }
+}

@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+.navbar-hr {
+    visibility: hidden;
+}
+
+.btn-outline-success {
+    color: #FAA41A !important;
+    border-color: #FAA41A !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #FAA41A !important;
+    color: white !important;
+}
+
+.navbar-submit {
+    margin-right: 8px;
+}
+
+.btn-close:hover {
+    background-color: #404040;
+    color: white;
+}
+
+.btn-file:hover {
+    background-color: #FAA41A;
+    color: white;
+}
+
+.btn-file {
+    background-color: white;
+    border: 1px solid #FAA41A !important;
+    color: #FAA41A;
+    font-weight: 500 !important;
+}
+
+.btn-close {
+    background-color: #ffffff;
+    color: #595959;
+    border: 1px solid #595959 !important;
+    font-weight: 500 !important;
+}
+#fucking_div {
+    width: calc(100% - 36px - 16px - 129px - 16px);
+}
+
+.btn-submit:hover {
+    background-color: #FAA41A;
+    color: white;
+}
+
+.btn-submit {
+    background-color: #ffffff;
+    color: #FAA41A;
+    border: 1px solid #FAA41A !important;
+    font-weight: 500 !important;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #FAA41A !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #FAA41A !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #FAA41A !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #FAA41A !important;
+}
+
+.search {
+    border: 1px solid #FAA41A !important;
+}
+
+.search:hover {
+    box-shadow: 0px 0px 0px 0.5px #FAA41A;
+}
+
+.search:focus {
+    box-shadow: 0px 0px 0px 1.05px #FAA41A;
+}
+
+@media (max-width: 576px)
+{
+    .btn-file {
+        width: 100%;
+    }
+
+    .navbar-button {
+        width: 100%;
+    }
+
+    .navbar-hr {
+        visibility: visible;
+    }
+
+    .navbar-submit {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 992px)
+{
+    #fucking_div {
+        width: calc(100% - 70px);
+    }
+    .navbar-button {
+        width: 100%;
+    }
+
+    .navbar-hr {
+        visibility: visible;
+    }
+
+    .navbar-submit {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .navbar-form {
+        margin-top: .5rem;
+    }
+    #audioscroll {
+        display: none;
+    }
+}
