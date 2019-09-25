@@ -1,2 +1,4 @@
 # sismusicplayer
-Music player for local networks You can share and play music from it within your local network
+Music player that lets you share and listen to music uploaded in LAN.
+Written during summer programming camp
+Peaked at about 100 users
